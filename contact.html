@@ -3,9 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta  name="Viewport" content="width=device-width, initial-Scale=1">
-  <title>Contact Us - Sanyu Bakery</title>
+  <title>Contact Us </title>
   <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <header>
@@ -14,36 +14,61 @@
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="news.html">News & Media</a></li>
+        <li><a href="news.html">News and media</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
   </header>
-
   <main>
-    <section>
+    <section id="intro">
       <h2>Get in Touch</h2>
+      <p><strong>Phone:</strong> <a href="tel:+256788620087">+256744036356</a></p>
+      <p><strong>WhatsApp:</strong>
+        <a class="button" href="https://wa.me/256788620087?text=Hello%20Sanyu%20Bakery,%20I%20would%20like%20to%20order" target="_blank">Chat. on WhatsApp</a>
+
+      <p><strong>Email:</strong> <a href="mailto:nakibirangojanat@gmail.com">nakibirangojanat@gmail.com</a></p>
+    </section>
+
+    <section id="follow">
+      <h2>Follow Us</h2>
+      <ul>
+        <li><a href="https://facebook.com/sanyubakery" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/sanyubakery" target="_blank">Twitter</a></li>
+        <li><a href="https://instagram.com/sanyubakery" target="_blank">Instagram</a></li>
+        <li><a href="https://linkedin.com/in/sanyubakery" target="_blank">LinkedIn</a></li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Message Us</h2>
       <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name"><br><br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
 
-        <label for="phone">Phone Number:</label><br>
-        <input type="tel" id="phone" name="phone"><br><br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message"></textarea><br><br>
-
-        <input type="submit" value="Send Message">
+        <button type="submit">Send</button>
       </form>
     </section>
+    
+    <section id="location">
+      <h2>Our Location</h2>
+      <p>Sanyu Bakery,plot no.67,Kampala, Uganda</p>
+        <p><a href="https://www.google.com/maps/search/?api=1&query=Sanyu+Bakery+Kampala" target="_blank">View on Google Maps</a></p>
+      <section>
+        <h2>Opening Hours</h2>
+        <ul>
+          <li>Monday - Friday: 7:00 Am - 8:00PM</li>
+          <li>Saturday: 8:00 AM - 8:00 PM</li>
+          <li>Sunday: 9:00 AM - 5:00 PM</li>
+        </ul>
+    </section>
   </main>
-
   <footer>
-    <p>Phone: +256744036356 / +256788620087 | Email: Sales@sanyugroup.com</p>
+    <p>&copy; 2026 Sanyu Bakery and Company Limited</p>
   </footer>
 </body>
 </html>
